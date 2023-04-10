@@ -62,3 +62,57 @@ h1 {
     color: var(--purple);
     font-weight: 600;
 }
+
+p {
+    margin-top: .8rem;  
+}
+
+.socialMedia ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.8rem;
+}
+
+.socialMedia ul li a {
+    color: var(--dark-blue);
+    font-size: 1.4rem;
+    
+}
+
+.github i {
+    color: var(--bg-color);
+    background-color: var(--dark-blue);
+    padding: .8rem;
+    border-radius: 80%;
+    filter: drop-shadow(0px 0px 4px rgba(13, 13, 54, 0.5));
+}
+
+.youtube i {
+    color: var(--bg-color);
+    background-color: #F6101E;
+    padding: .8rem;
+    border-radius: 80%;
+    filter: drop-shadow(0px 0px 5.61676px rgba(247, 16, 30, 0.5));
+}
+
+.twitter i {
+    color: var(--bg-color);
+    background-color: #2FB4FF;
+    padding: .8rem;
+    border-radius: 80%;
+    filter: drop-shadow(0px 1.40419px 4.21257px rgba(0, 163, 255, 0.5));
+}
+
+.instagram i {
+    color: var(--bg-color);
+    background: linear-gradient(214.16deg, #EC2F7C 16.24%, #F7783B 82.09%);
+    padding: .8rem;
+    border-radius: 80%;
+    filter: drop-shadow(0px 0px 5.61676px rgba(236, 47, 124, 0.5));;
+}
+
+.socialMedia li {
+    list-style-type: none;
+}
