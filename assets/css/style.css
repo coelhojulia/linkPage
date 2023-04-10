@@ -20,4 +20,45 @@ body {
     background-color: var(--bg-color);
     color: var(--dark-blue);
     font-family: 'Nunito', sans-serif;
+    margin-top: 3rem;
+}
+
+.mainContent {
+    justify-content: center;
+    text-align: center;
+}
+
+body img {
+    border-radius: 50%;
+    width: 10rem;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.infoTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: .5rem;
+}
+
+.jobTag {
+    background-color: var(--pink);
+    padding: .4rem .8rem;
+    border-radius: 4rem;
+    color: var(--fuschia);
+    font-weight: 600;
+}
+
+.levelTag {
+    background-color: var(--lilac);
+    padding: .4rem .8rem;
+    border-radius: 4rem;
+    color: var(--purple);
+    font-weight: 600;
 }
