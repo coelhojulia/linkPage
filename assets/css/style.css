@@ -20,7 +20,7 @@ body {
     background-color: var(--bg-color);
     color: var(--dark-blue);
     font-family: 'Nunito', sans-serif;
-    margin: 4rem 2rem;
+    margin: 1.2rem 2rem;
 }
 
 .mainContent {
@@ -135,7 +135,7 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.2rem;
-    width: 35%;
+    width: 25%;
     padding: .4rem;
 }
 
@@ -143,4 +143,26 @@ p {
     background-color: var(--dark-blue);
     color: var(--bg-color);
     transition: all ease-in .4s;
+}
+
+/* Responsividade */
+
+@media (max-width: 844px) {
+    p {
+        line-height: 2rem;
+    }
+
+    .btnLinks {
+        width: 80%;
+    }
+}
+
+@media (max-width: 590px) {
+    p {
+        line-height: 2rem;
+    }
+
+    .btnLinks {
+        width: 80%;
+    }
 }
