@@ -20,7 +20,7 @@ body {
     background-color: var(--bg-color);
     color: var(--dark-blue);
     font-family: 'Nunito', sans-serif;
-    margin-top: 3rem;
+    margin: 4rem 2rem;
 }
 
 .mainContent {
@@ -115,4 +115,32 @@ p {
 
 .socialMedia li {
     list-style-type: none;
+}
+
+.btnSocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    margin-top: 2rem;
+}
+
+.btnLinks {
+    background-color: var(--bg-color);
+    color: var(--dark-blue);
+    border: .1rem solid var(--dark-blue);
+    border-radius: 4rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: 35%;
+    padding: .4rem;
+}
+
+.btnLinks:hover {
+    background-color: var(--dark-blue);
+    color: var(--bg-color);
+    transition: all ease-in .4s;
 }
