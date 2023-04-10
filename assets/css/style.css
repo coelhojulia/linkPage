@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --dark-blue: #0D0D36;
+    --medium-blue: #313154;
+    --light-blue: #65657F;
+    --purple: #5D5FEF;
+    --lilac: #CACBF6;
+    --fuschia: #EF5DA8;
+    --pink: #FCDDEC;
+    --bg-color: #EFEFF5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--dark-blue);
+    font-family: 'Nunito', sans-serif;
+}
