@@ -18,16 +18,14 @@ body {
     background-color: var(--bg-color);
     color: var(--dark-color);
     font-family: 'Nunito', sans-serif;
-    margin: 1.2rem 2rem;
-}
-
-.container {
-    padding: 1rem 2rem;
-}
-
-.mainContent {
-    justify-content: center;
     text-align: center;
+    padding: 2rem 1rem;
+}
+
+main {
+    display: block;
+    justify-content: space-around;
+    padding: 2rem 1rem;
 }
 
 body img {
@@ -73,13 +71,13 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     gap: 1.8rem;
 }
 
 .socialMedia ul li a {
     color: var(--dark-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     
 }
 
@@ -119,7 +117,7 @@ p {
     list-style-type: none;
 }
 
-.btnSocial{
+.btnSocial {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,58 +127,22 @@ p {
 
 .btnLinks {
     background-color: var(--bg-color);
-    color: var(--dark-blue);
+    color: var(--dark-color);
     border: .1rem solid var(--dark-color);
     border-radius: 4rem;
     letter-spacing: .2rem;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.2rem;
-    width: 25%;
+    font-size: 1rem;
+    width: 20%;
     padding: .4rem;
 }
 
 .btnLinks:hover {
     background-color: var(--dark-color);
     color: var(--bg-color);
-    transition: all ease-in .4s;
+    transition: all ease-in-out .4s;
 }
 
 /* Responsividade */
-
-@media (max-width: 1024px) {
-    p {
-        line-height: 2rem;
-    }
-
-    .btnLinks {
-        width: 80%;
-    }
-}
-
-
-@media (max-width: 844px) {
-
-    .container {
-        padding: 2rem 1rem;
-    }
-
-    p {
-        line-height: 2rem;
-    }
-
-    .btnLinks {
-        width: 80%;
-    }
-}
-
-@media (max-width: 590px) {
-    p {
-        line-height: 2rem;
-    }
-
-    .btnLinks {
-        width: 80%;
-    }
-}
