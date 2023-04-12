@@ -146,3 +146,33 @@ p {
 }
 
 /* Responsividade */
+
+
+@media (max-width: 844px) {
+    body {
+        padding: 2rem;
+    }
+
+    .socialMedia ul li a {
+        font-size: 1.2rem;
+    }
+
+    .btnSocial {
+        width: 100%;
+    }
+
+    .btnLinks {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        padding: 2rem;
+    }
+
+    .socialMedia ul li a {
+        font-size: 1.2rem;
+    }
+
+}
