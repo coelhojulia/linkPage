@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@600&display=swap');
 
 :root {
-    --dark-blue: #0D0D36;
-    --medium-blue: #313154;
-    --light-blue: #65657F;
-    --purple: #5D5FEF;
-    --lilac: #CACBF6;
-    --fuschia: #EF5DA8;
-    --pink: #FCDDEC;
+    --dark-color: #322435;
+    --dark-pink: #DC8B90;
+    --medium-pink: #E7A6AA;
+    --pink: #FAE4E3;
     --bg-color: #EFEFF5;
 }
 
@@ -18,7 +15,7 @@
 
 body {
     background-color: var(--bg-color);
-    color: var(--dark-blue);
+    color: var(--dark-color);
     font-family: 'Nunito', sans-serif;
     margin: 1.2rem 2rem;
 }
@@ -56,7 +53,7 @@ h1 {
 }
 
 .levelTag {
-    background-color: var(--lilac);
+    background-color: var(--dark-pink);
     padding: .4rem .8rem;
     border-radius: 4rem;
     color: var(--purple);
@@ -76,41 +73,41 @@ p {
 }
 
 .socialMedia ul li a {
-    color: var(--dark-blue);
+    color: var(--dark-color);
     font-size: 1.4rem;
     
 }
 
 .github i {
     color: var(--bg-color);
-    background-color: var(--dark-blue);
+    background-color: var(--dark-color);
     padding: .8rem;
     border-radius: 80%;
-    filter: drop-shadow(0px 0px 4px rgba(13, 13, 54, 0.5));
+    filter: drop-shadow(0px -1px 4px rgba(50, 36, 53, 0.25));
 }
 
 .youtube i {
     color: var(--bg-color);
-    background-color: #F6101E;
+    background-color: var(--dark-color);
     padding: .8rem;
     border-radius: 80%;
-    filter: drop-shadow(0px 0px 5.61676px rgba(247, 16, 30, 0.5));
+    filter: drop-shadow(0px -1px 4px rgba(50, 36, 53, 0.25));
 }
 
 .twitter i {
     color: var(--bg-color);
-    background-color: #2FB4FF;
+    background-color: var(--dark-color);
     padding: .8rem;
     border-radius: 80%;
-    filter: drop-shadow(0px 1.40419px 4.21257px rgba(0, 163, 255, 0.5));
+    filter: drop-shadow(0px -1px 4px rgba(50, 36, 53, 0.25));
 }
 
 .instagram i {
     color: var(--bg-color);
-    background: linear-gradient(214.16deg, #EC2F7C 16.24%, #F7783B 82.09%);
+    background-color: var(--dark-color);
     padding: .8rem;
     border-radius: 80%;
-    filter: drop-shadow(0px 0px 5.61676px rgba(236, 47, 124, 0.5));;
+    filter: drop-shadow(0px -1px 4px rgba(50, 36, 53, 0.25));
 }
 
 .socialMedia li {
@@ -128,7 +125,7 @@ p {
 .btnLinks {
     background-color: var(--bg-color);
     color: var(--dark-blue);
-    border: .1rem solid var(--dark-blue);
+    border: .1rem solid var(--dark-color);
     border-radius: 4rem;
     letter-spacing: .2rem;
     text-align: center;
@@ -140,7 +137,7 @@ p {
 }
 
 .btnLinks:hover {
-    background-color: var(--dark-blue);
+    background-color: var(--dark-color);
     color: var(--bg-color);
     transition: all ease-in .4s;
 }
