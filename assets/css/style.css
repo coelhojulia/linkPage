@@ -2,6 +2,7 @@
 
 :root {
     --dark-color: #322435;
+    --grey: #ADA9B1;
     --dark-pink: #DC8B90;
     --medium-pink: #E7A6AA;
     --pink: #FAE4E3;
@@ -18,6 +19,10 @@ body {
     color: var(--dark-color);
     font-family: 'Nunito', sans-serif;
     margin: 1.2rem 2rem;
+}
+
+.container {
+    padding: 1rem 2rem;
 }
 
 .mainContent {
@@ -48,12 +53,12 @@ h1 {
     background-color: var(--pink);
     padding: .4rem .8rem;
     border-radius: 4rem;
-    color: var(--fuschia);
+    color: var(--dark-pink);
     font-weight: 600;
 }
 
 .levelTag {
-    background-color: var(--dark-pink);
+    background-color: var(--grey);
     padding: .4rem .8rem;
     border-radius: 4rem;
     color: var(--purple);
@@ -144,7 +149,23 @@ p {
 
 /* Responsividade */
 
+@media (max-width: 1024px) {
+    p {
+        line-height: 2rem;
+    }
+
+    .btnLinks {
+        width: 80%;
+    }
+}
+
+
 @media (max-width: 844px) {
+
+    .container {
+        padding: 2rem 1rem;
+    }
+
     p {
         line-height: 2rem;
     }
