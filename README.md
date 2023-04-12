@@ -1,6 +1,6 @@
 # ⋆ Página de Links
 
-Projeto de página de título para reunir os principais links de Redes Sociais em um só lugar!
+Projeto de página estática para reunir os principais links de Redes Sociais em um só lugar!
 
 ## » Índice
 
